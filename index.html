@@ -102,6 +102,7 @@
             background-color: #2c2c2c;
             position: relative;
             overflow: hidden;
+            cursor: pointer; /* 設定圖片區域為指標 */
         }
         
         .card-img-wrapper img {
@@ -138,6 +139,7 @@
         .card-content {
             padding: 25px;
             flex-grow: 1;
+            cursor: pointer; /* 設定內容區域為指標 */
         }
 
         .champion-name {
@@ -189,7 +191,7 @@
             font-size: 0.95rem;
         }
 
-        /* Action Buttons */
+        /* Action Buttons - 保持獨立可點擊 */
         .action-buttons {
             display: flex;
             border-top: 1px solid #333;
@@ -211,7 +213,7 @@
             gap: 8px;
             text-decoration: none;
             font-weight: 600;
-            font-family: var(--font-sans); /* 確保按鈕文字使用無襯線 */
+            font-family: var(--font-sans);
         }
 
         .view-recipe-btn {
@@ -432,7 +434,7 @@
                 <img src="https://placehold.co/600x400/222/d4a373?text=George+Peng+2025" alt="George Peng">
                 <span class="year-badge">2025</span>
             </div>
-            <div class="card-content">
+            <div class="card-content" onclick="openDrawer('2025')">
                 <h2 class="champion-name">George Jinyang Peng</h2>
                 <span class="champion-country">🇨🇳 China 中國</span>
                 <div class="stats">
@@ -469,7 +471,7 @@
                 <img src="https://placehold.co/600x400/222/d4a373?text=Martin+W%C3%B6lfl+2024" alt="Martin Wölfl">
                 <span class="year-badge">2024</span>
             </div>
-            <div class="card-content">
+            <div class="card-content" onclick="openDrawer('2024')">
                 <h2 class="champion-name">Martin Wölfl</h2>
                 <span class="champion-country">🇦🇹 Austria 奧地利</span>
                 <div class="stats">
@@ -506,7 +508,7 @@
                 <img src="https://placehold.co/600x400/222/d4a373?text=Carlos+Medina+2023" alt="Carlos Medina">
                 <span class="year-badge">2023</span>
             </div>
-            <div class="card-content">
+            <div class="card-content" onclick="openDrawer('2023')">
                 <h2 class="champion-name">Carlos Medina</h2>
                 <span class="champion-country">🇨🇱 Chile 智利</span>
                 <div class="stats">
@@ -543,7 +545,7 @@
                 <img src="https://placehold.co/600x400/222/d4a373?text=Sherry+Hsu+2022" alt="Sherry Hsu">
                 <span class="year-badge">2022</span>
             </div>
-            <div class="card-content">
+            <div class="card-content" onclick="openDrawer('2022')">
                 <h2 class="champion-name">Sherry Hsu 徐詩媛</h2>
                 <span class="champion-country">🇹🇼 Taiwan 台灣</span>
                 <div class="stats">
@@ -580,7 +582,7 @@
                 <img src="https://placehold.co/600x400/222/d4a373?text=Matt+Winton+2021" alt="Matt Winton">
                 <span class="year-badge">2021</span>
             </div>
-            <div class="card-content">
+            <div class="card-content" onclick="openDrawer('2021')">
                 <h2 class="champion-name">Matt Winton</h2>
                 <span class="champion-country">🇨🇭 Switzerland 瑞士</span>
                 <div class="stats">
@@ -624,7 +626,7 @@
                 <img src="https://placehold.co/600x400/222/d4a373?text=Jia+Ning+Du+2019" alt="Jia Ning Du">
                 <span class="year-badge">2019</span>
             </div>
-            <div class="card-content">
+            <div class="card-content" onclick="openDrawer('2019')">
                 <h2 class="champion-name">Jia Ning Du 杜嘉寧</h2>
                 <span class="champion-country">🇨🇳 China 中國</span>
                 <div class="stats">
@@ -661,7 +663,7 @@
                 <img src="https://placehold.co/600x400/222/d4a373?text=Emi+Fukahori+2018" alt="Emi Fukahori">
                 <span class="year-badge">2018</span>
             </div>
-            <div class="card-content">
+            <div class="card-content" onclick="openDrawer('2018')">
                 <h2 class="champion-name">Emi Fukahori</h2>
                 <span class="champion-country">🇨🇭 Switzerland 瑞士</span>
                 <div class="stats">
@@ -698,7 +700,7 @@
                 <img src="https://placehold.co/600x400/222/d4a373?text=Chad+Wang+2017" alt="Chad Wang">
                 <span class="year-badge">2017</span>
             </div>
-            <div class="card-content">
+            <div class="card-content" onclick="openDrawer('2017')">
                 <h2 class="champion-name">Chad Wang 王策</h2>
                 <span class="champion-country">🇹🇼 Taiwan 台灣</span>
                 <div class="stats">
@@ -735,7 +737,7 @@
                 <img src="https://placehold.co/600x400/222/d4a373?text=Tetsu+Kasuya+2016" alt="Tetsu Kasuya">
                 <span class="year-badge">2016</span>
             </div>
-            <div class="card-content">
+            <div class="card-content" onclick="openDrawer('2016')">
                 <h2 class="champion-name">Tetsu Kasuya 粕谷哲</h2>
                 <span class="champion-country">🇯🇵 Japan 日本</span>
                 <div class="stats">
@@ -772,7 +774,7 @@
                 <img src="https://placehold.co/600x400/222/d4a373?text=Odd-Steinar+2015" alt="Odd-Steinar">
                 <span class="year-badge">2015</span>
             </div>
-            <div class="card-content">
+            <div class="card-content" onclick="openDrawer('2015')">
                 <h2 class="champion-name">Odd-Steinar Tøllefsen</h2>
                 <span class="champion-country">🇳🇴 Norway 挪威</span>
                 <div class="stats">
@@ -809,7 +811,7 @@
                 <img src="https://placehold.co/600x400/222/d4a373?text=Stefanos+Domatiotis+2014" alt="Stefanos Domatiotis">
                 <span class="year-badge">2014</span>
             </div>
-            <div class="card-content">
+            <div class="card-content" onclick="openDrawer('2014')">
                 <h2 class="champion-name">Stefanos Domatiotis</h2>
                 <span class="champion-country">🇬🇷 Greece 希臘</span>
                 <div class="stats">
