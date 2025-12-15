@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WBrC Archive | 世界沖煮大賽冠軍參數庫</title>
+    <title>WBrC Legends | 世界沖煮大賽冠軍參數庫</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
             --accent: #d4a373; /* 咖啡金 */
             --highlight: #bc6c25;
             --youtube-red: #ff0000;
-            /* 2. Custom Fonts */
+            /* Custom Fonts */
             --font-serif: 'Playfair Display', serif;
             --font-sans: 'Noto Sans TC', 'Helvetica Neue', Arial, sans-serif;
             --drawer-width: 450px;
@@ -37,7 +37,7 @@
             font-family: var(--font-sans); /* 本文使用現代無襯線 */
             line-height: 1.6;
             padding-bottom: 80px;
-            overflow-x: hidden;
+            overflow-x: hidden; /* 防止抽屜滑動時出現水平捲軸 */
         }
 
         /* Header */
@@ -421,7 +421,7 @@
     <div class="drawer-overlay" id="overlay" onclick="closeAllDrawers()"></div>
 
     <header>
-        <h1>WBrC Archive</h1>
+        <h1>WBrC LEGENDS</h1>
         <p class="subtitle">World Brewers Cup Champions Archive (2014 - 2025)</p>
     </header>
 
@@ -606,7 +606,7 @@
                 <button class="action-btn view-recipe-btn" onclick="openDrawer('2021')">
                     View Recipe <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
                 </button>
-                <a href="https://www.youtube.com/watch?v=Na22nFaRh5o" target="_blank" class="action-btn video-btn">
+                <a href="https://www.youtube.com/watch?v=YIC-2nFQ7vM" target="_blank" class="action-btn video-btn">
                     Watch Video <svg viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
                 </a>
             </div>
@@ -724,7 +724,7 @@
                 <button class="action-btn view-recipe-btn" onclick="openDrawer('2017')">
                     View Recipe <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
                 </button>
-                <a href="https://www.youtube.com/results?search_query=Chad+Wang+2017+World+Brewers+Cup" target="_blank" class="action-btn video-btn">
+                <a href="https://www.youtube.com/watch?v=rXdhzy2piMk" target="_blank" class="action-btn video-btn">
                     Watch Video <svg viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
                 </a>
             </div>
@@ -835,11 +835,373 @@
                 <button class="action-btn view-recipe-btn" onclick="openDrawer('2014')">
                     View Recipe <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
                 </button>
-                <a href="https://www.youtube.com/watch?v=tw8em9RLp6Y" target="_blank" class="action-btn video-btn">
+                <a href="https://www.youtube.com/watch?v=Nu4PMo-nEDE" target="_blank" class="action-btn video-btn">
                     Watch Video <svg viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
                 </a>
             </div>
         </div>
+
+    </div>
+
+    <div class="drawer" id="drawer-2025">
+        <div class="drawer-header">
+            <div class="drawer-title">
+                <h2>George Peng</h2>
+                <span>2025 Champion</span>
+            </div>
+            <button class="close-btn" onclick="closeAllDrawers()">&times;</button>
+        </div>
+        <div class="drawer-body">
+            <div class="drawer-section">
+                <div class="recipe-meta">
+                    特色：高溫萃取前段香氣，低溫+Melodrip萃取尾段甜感。使用 Solo Dripper 與自製 3 種烘焙度拼配豆。
+                </div>
+                <h4>Brewing Steps</h4>
+                <ul class="steps-list">
+                    <li><strong>0:00 - Bloom</strong><br>注入 30g (96°C) 悶蒸</li>
+                    <li><strong>0:30 - First Pour</strong><br>注入 90g (96°C) 繞圈注水</li>
+                    <li><strong>1:10 - Second Pour</strong><br>注入 90g (80°C)<br><span style="color:#888; font-size:0.85em;">*使用 Melodrip 柔和注水以減少擾動</span></li>
+                    <li><strong>1:45 - Finish</strong><br>移開濾杯，總時間約 1:45-2:00</li>
+                </ul>
+            </div>
+            <div class="drawer-section">
+                <h4>Equipment Note</h4>
+                <p style="font-size: 0.9rem; color: #bbb;">
+                    Solo Dripper (無肋骨設計), Sibarist Filter.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="drawer" id="drawer-2024">
+        <div class="drawer-header">
+            <div class="drawer-title">
+                <h2>Martin Wölfl</h2>
+                <span>2024 Champion</span>
+            </div>
+            <button class="close-btn" onclick="closeAllDrawers()">&times;</button>
+        </div>
+        <div class="drawer-body">
+            <div class="drawer-section">
+                <div class="recipe-meta">
+                    特色：使用 Melodrip 減少擾動，強調極致的乾淨度與風味層次，使用快速流速濾杯。
+                </div>
+                <h4>Brewing Steps</h4>
+                <ul class="steps-list">
+                    <li><strong>0:00 - Bloom</strong><br>注入 60g 悶蒸</li>
+                    <li><strong>0:40 - First Pour</strong><br>注入 60g (Total 120g)</li>
+                    <li><strong>1:20 - Second Pour</strong><br>注入 50g (Total 170g)</li>
+                    <li><strong>2:00 - Final Pour</strong><br>注入 100g (Total 270g)</li>
+                    <li><strong>2:20 - Finish</strong><br>萃取結束</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="drawer" id="drawer-2023">
+        <div class="drawer-header">
+            <div class="drawer-title">
+                <h2>Carlos Medina</h2>
+                <span>2023 Champion</span>
+            </div>
+            <button class="close-btn" onclick="closeAllDrawers()">&times;</button>
+        </div>
+        <div class="drawer-body">
+            <div class="drawer-section">
+                <div class="recipe-meta">
+                    特色：極致均勻的 5 段式注水，使用 Origami 搭配錐形濾紙，強調酸質明亮。
+                </div>
+                <h4>Brewing Steps</h4>
+                <ul class="steps-list">
+                    <li><strong>0:00 - Pour 1</strong><br>注入 50g 繞圈</li>
+                    <li><strong>0:30 - Pour 2</strong><br>注入 50g 繞圈</li>
+                    <li><strong>1:00 - Pour 3</strong><br>注入 50g 繞圈</li>
+                    <li><strong>1:30 - Pour 4</strong><br>注入 50g 繞圈</li>
+                    <li><strong>2:00 - Pour 5</strong><br>注入 50g 繞圈</li>
+                    <li><strong>2:40 - Finish</strong><br>總注水量 250g</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="drawer" id="drawer-2022">
+        <div class="drawer-header">
+            <div class="drawer-title">
+                <h2>Sherry Hsu</h2>
+                <span>2022 Champion</span>
+            </div>
+            <button class="close-btn" onclick="closeAllDrawers()">&times;</button>
+        </div>
+        <div class="drawer-body">
+            <div class="drawer-section">
+                <div class="recipe-meta">
+                    特色：變溫萃取法。前段使用低溫（70°C）保留細緻花香，後段高溫（95°C）帶出甜感與體脂感。
+                </div>
+                <h4>Brewing Steps</h4>
+                <ul class="steps-list">
+                    <li><strong>0:00 - Bloom (Low Temp)</strong><br>50g 水 (70°C) 悶蒸 30秒</li>
+                    <li><strong>0:30 - Second Pour (High Temp)</strong><br>50g 水 (95°C) 繞圈注水</li>
+                    <li><strong>1:00 - Third Pour (High Temp)</strong><br>50g 水 (95°C) 中心注水</li>
+                    <li><strong>1:30 - Final Pour (High Temp)</strong><br>50g 水 (95°C) 中心注水</li>
+                    <li><strong>2:00 - Finish</strong><br>總水量 200g</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="drawer" id="drawer-2021">
+        <div class="drawer-header">
+            <div class="drawer-title">
+                <h2>Matt Winton</h2>
+                <span>2021 Champion</span>
+            </div>
+            <button class="close-btn" onclick="closeAllDrawers()">&times;</button>
+        </div>
+        <div class="drawer-body">
+            <div class="drawer-section">
+                <div class="recipe-meta">
+                    特色：使用大粉量（20g）粗研磨，5次中心注水，強調高萃取率與甜感，不繞圈。
+                </div>
+                <h4>Brewing Steps</h4>
+                <ul class="steps-list">
+                    <li><strong>0:00 - Bloom</strong><br>注入 60g</li>
+                    <li><strong>0:45 - Pour 2</strong><br>注入 60g (中心定點注水)</li>
+                    <li><strong>1:30 - Pour 3</strong><br>注入 60g (中心定點注水)</li>
+                    <li><strong>2:15 - Pour 4</strong><br>注入 60g (中心定點注水)</li>
+                    <li><strong>3:00 - Pour 5</strong><br>注入 60g (中心定點注水)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" style="opacity: 0.5; border: 1px dashed #555;">
+        <div class="card-content" style="text-align: center; padding: 40px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <h2 class="champion-name" style="font-family: var(--font-serif); color: #666;">2020</h2>
+            <p style="color: #555;">No Competition (COVID-19)</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-img-wrapper" onclick="openDrawer('2019')">
+            <img src="https://placehold.co/600x400/222/d4a373?text=Jia+Ning+Du+2019" alt="Jia Ning Du">
+            <span class="year-badge">2019</span>
+        </div>
+        <div class="card-content">
+            <h2 class="champion-name">Jia Ning Du 杜嘉寧</h2>
+            <span class="champion-country">🇨🇳 China 中國</span>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Dripper</span>
+                    <span class="stat-value">Origami (Ceramic)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Dose</span>
+                    <span class="stat-value">16g (Coarse)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Water</span>
+                    <span class="stat-value">240g / 94°C</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Time</span>
+                    <span class="stat-value">1:40</span>
+                </div>
+            </div>
+        </div>
+        <div class="action-buttons">
+            <button class="action-btn view-recipe-btn" onclick="openDrawer('2019')">
+                View Recipe <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </button>
+            <a href="https://www.youtube.com/watch?v=Fl4fuM5bVQU" target="_blank" class="action-btn video-btn">
+                Watch Video <svg viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-img-wrapper" onclick="openDrawer('2018')">
+            <img src="https://placehold.co/600x400/222/d4a373?text=Emi+Fukahori+2018" alt="Emi Fukahori">
+            <span class="year-badge">2018</span>
+        </div>
+        <div class="card-content">
+            <h2 class="champion-name">Emi Fukahori</h2>
+            <span class="champion-country">🇨🇭 Switzerland 瑞士</span>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Dripper</span>
+                    <span class="stat-value">GINA (Hybrid)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Method</span>
+                    <span class="stat-value">Immersion + Drip</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Dose</span>
+                    <span class="stat-value">17g</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Water</span>
+                    <span class="stat-value">220g Total</span>
+                </div>
+            </div>
+        </div>
+        <div class="action-buttons">
+            <button class="action-btn view-recipe-btn" onclick="openDrawer('2018')">
+                View Recipe <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </button>
+            <a href="https://www.youtube.com/watch?v=bfAehl9GdKE" target="_blank" class="action-btn video-btn">
+                Watch Video <svg viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-img-wrapper" onclick="openDrawer('2017')">
+            <img src="https://placehold.co/600x400/222/d4a373?text=Chad+Wang+2017" alt="Chad Wang">
+            <span class="year-badge">2017</span>
+        </div>
+        <div class="card-content">
+            <h2 class="champion-name">Chad Wang 王策</h2>
+            <span class="champion-country">🇹🇼 Taiwan 台灣</span>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Dripper</span>
+                    <span class="stat-value">Hario V60 (Ceramic)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Dose</span>
+                    <span class="stat-value">15g</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Water</span>
+                    <span class="stat-value">250ml / 92°C</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Style</span>
+                    <span class="stat-value">Center Pour</span>
+                </div>
+            </div>
+        </div>
+        <div class="action-buttons">
+            <button class="action-btn view-recipe-btn" onclick="openDrawer('2017')">
+                View Recipe <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </button>
+            <a href="https://www.youtube.com/watch?v=rXdhzy2piMk" target="_blank" class="action-btn video-btn">
+                Watch Video <svg viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-img-wrapper" onclick="openDrawer('2016')">
+            <img src="https://placehold.co/600x400/222/d4a373?text=Tetsu+Kasuya+2016" alt="Tetsu Kasuya">
+            <span class="year-badge">2016</span>
+        </div>
+        <div class="card-content">
+            <h2 class="champion-name">Tetsu Kasuya 粕谷哲</h2>
+            <span class="champion-country">🇯🇵 Japan 日本</span>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Dripper</span>
+                    <span class="stat-value">Hario V60 (Ceramic)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Dose</span>
+                    <span class="stat-value">20g (Coarse)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Water</span>
+                    <span class="stat-value">300ml / 92°C</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Method</span>
+                    <span class="stat-value">4:6 Method</span>
+                </div>
+            </div>
+        </div>
+        <div class="action-buttons">
+            <button class="action-btn view-recipe-btn" onclick="openDrawer('2016')">
+                View Recipe <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </button>
+            <a href="https://www.youtube.com/watch?v=kaq6p5F2qwc" target="_blank" class="action-btn video-btn">
+                Watch Video <svg viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-img-wrapper" onclick="openDrawer('2015')">
+            <img src="https://placehold.co/600x400/222/d4a373?text=Odd-Steinar+2015" alt="Odd-Steinar">
+            <span class="year-badge">2015</span>
+        </div>
+        <div class="card-content">
+            <h2 class="champion-name">Odd-Steinar Tøllefsen</h2>
+            <span class="champion-country">🇳🇴 Norway 挪威</span>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Dripper</span>
+                    <span class="stat-value">Hario V60 (Glass)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Dose</span>
+                    <span class="stat-value">20g</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Water</span>
+                    <span class="stat-value">300ml / 92°C</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Notes</span>
+                    <span class="stat-value">Mineral Water</span>
+                </div>
+            </div>
+        </div>
+        <div class="action-buttons">
+            <button class="action-btn view-recipe-btn" onclick="openDrawer('2015')">
+                View Recipe <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </button>
+            <a href="https://www.youtube.com/watch?v=qenmLsfgnvY" target="_blank" class="action-btn video-btn">
+                Watch Video <svg viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-img-wrapper" onclick="openDrawer('2014')">
+            <img src="https://placehold.co/600x400/222/d4a373?text=Stefanos+Domatiotis+2014" alt="Stefanos Domatiotis">
+            <span class="year-badge">2014</span>
+        </div>
+        <div class="card-content">
+            <h2 class="champion-name">Stefanos Domatiotis</h2>
+            <span class="champion-country">🇬🇷 Greece 希臘</span>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Dripper</span>
+                    <span class="stat-value">Hario V60 (Custom)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Dose</span>
+                    <span class="stat-value">High Dose</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Style</span>
+                    <span class="stat-value">Heavy Agitation</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Legacy</span>
+                    <span class="stat-value">Gem Series Creator</span>
+                </div>
+            </div>
+        </div>
+        <div class="action-buttons">
+            <button class="action-btn view-recipe-btn" onclick="openDrawer('2014')">
+                View Recipe <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </button>
+            <a href="https://www.youtube.com/watch?v=Nu4PMo-nEDE" target="_blank" class="action-btn video-btn">
+                Watch Video <svg viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
+            </a>
+        </div>
+    </div>
 
     </div>
 
